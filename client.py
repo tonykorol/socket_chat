@@ -1,7 +1,7 @@
 import socket
 from threading import Thread
 
-SRV_ADDR = ("127.0.0.1", 8008)
+SRV_ADDR = ("192.168.0.103", 8008)
 
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 client.connect(SRV_ADDR)

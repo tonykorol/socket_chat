@@ -1,7 +1,7 @@
 import socket
 from threading import Thread
 
-HOST = "127.0.0.1"
+HOST = "192.168.0.103"
 PORT = 8008
 
 SRV_ADDR = (HOST, PORT)
